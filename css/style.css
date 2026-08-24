@@ -1,1 +1,397 @@
 /* Jackson & Grear Cornerstone Construction — styles */
+
+/* ===== 1. Custom properties ===== */
+:root {
+  /* Color tokens */
+  --color-base: #F2EDE0;
+  --color-ink: #1C2620;
+  --color-accent: #8B3A1F;
+  --color-accent-dark: #6B2A15;
+  --color-secondary: #6E6A5F;
+  --color-sage: #8A8F72;
+  --color-focus: #80856A;
+
+  /* Type tokens */
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Spacing */
+  --space-section-desktop: 6rem;
+  --space-section-mobile: 3rem;
+  --content-max-width: 1200px;
+
+  /* Breakpoints — reference only; @media requires literal values: 640px / 1024px / 1280px */
+}
+
+/* ===== 2. Reset / base ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+/* ===== 3. Base typography ===== */
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: var(--color-ink);
+  background-color: var(--color-base);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  color: var(--color-ink);
+  line-height: 1.2;
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+  h1 { font-size: 3.5rem; }
+  h2 { font-size: 2.25rem; }
+}
+
+p {
+  overflow-wrap: break-word;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-accent-dark);
+}
+
+/* ===== 4. Layout primitives ===== */
+.container {
+  max-width: var(--content-max-width);
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+.section {
+  padding-block: var(--space-section-mobile);
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding-block: var(--space-section-desktop);
+  }
+}
+
+/* ===== 5. Nav bar ===== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--color-base);
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+.site-header__inner {
+  max-width: var(--content-max-width);
+  margin-inline: auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  color: var(--color-ink);
+}
+
+.site-logo__name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.site-logo__tagline {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+}
+
+.nav-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-toggle__bar {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--color-ink);
+}
+
+@media (min-width: 1024px) {
+  .nav-toggle {
+    display: none;
+  }
+}
+
+.site-nav {
+  position: fixed;
+  inset: 0;
+  background: var(--color-ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-100%);
+  transition: transform 200ms ease;
+}
+
+.site-nav.is-open {
+  transform: translateY(0);
+}
+
+.site-nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.site-nav a {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-base);
+}
+
+.site-nav a[aria-current="page"] {
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 0.25rem;
+}
+
+@media (min-width: 1024px) {
+  .site-nav {
+    position: static;
+    transform: none;
+    background: none;
+    display: block;
+  }
+
+  .site-nav__list {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .site-nav a {
+    color: var(--color-ink);
+  }
+}
+
+/* ===== 6. Footer ===== */
+.site-footer {
+  background: var(--color-ink);
+  color: var(--color-base);
+  padding: 3rem 1.5rem 1.5rem;
+}
+
+.site-footer__inner {
+  max-width: var(--content-max-width);
+  margin-inline: auto;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .site-footer__inner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.site-footer a {
+  color: var(--color-base);
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-underline-offset: 3px;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: var(--color-accent);
+}
+
+.site-footer__name {
+  font-family: var(--font-display);
+  font-weight: 600;
+}
+
+.site-footer__col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.site-footer__legal {
+  text-align: center;
+  font-size: 0.875rem;
+  margin-top: 2rem;
+  color: var(--color-base);
+  opacity: 0.6;
+}
+
+/* ===== 7. Buttons ===== */
+.button {
+  display: inline-block;
+  background-color: var(--color-accent);
+  color: var(--color-base);
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.875rem 1.75rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 150ms ease, transform 100ms ease;
+}
+
+.button:hover {
+  background-color: var(--color-accent-dark);
+  color: var(--color-base);
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+/* ===== 8. Signature divider ===== */
+.section-divider {
+  display: block;
+  width: 100%;
+  color: var(--color-accent);
+  margin-block: 2rem;
+}
+
+/* ===== 9. Skip-to-content + visually-hidden utility ===== */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: var(--color-ink);
+  color: var(--color-base);
+  padding: 1rem 1.5rem;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* ===== 10. Print styles ===== */
+@media print {
+  .site-header,
+  .site-footer,
+  .button,
+  .skip-link {
+    display: none;
+  }
+
+  body {
+    color: #000;
+    background: #fff;
+  }
+
+  a[href^="tel:"],
+  a[href^="mailto:"] {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+/* ===== 11. Reduced motion ===== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+
+  .button:active {
+    transform: none !important;
+  }
+}
