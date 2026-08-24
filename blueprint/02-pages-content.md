@@ -53,7 +53,7 @@ Locked copy — do not reword.
 
 > Jackson & Grear Cornerstone Construction was founded on a simple idea: build well, treat people right, and stand behind the work.
 >
-> Jeremiah Jackson brings over twenty years in Boise County and a lifetime in the trade — he's been on job sites since he was a kid, and his hands have touched a good share of the homes in this area.
+> Jeremiah Jackson has been in the trade his whole life and working construction in Boise County for over twenty years. A good share of the homes around here have his work in them.
 >
 > Joseph Grear has called this county home for the past seven years and brings five-plus years of construction experience, much of it on large commercial job sites in Las Vegas, giving the company a strong foundation in both residential craftsmanship and large-scale build standards.
 >
