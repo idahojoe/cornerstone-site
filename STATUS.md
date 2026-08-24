@@ -12,7 +12,7 @@
 - Phase 6: About Page ✅ — `about.html` built (h1 "About", 3-section/2-divider structure: intro (h1 + mission paragraph), story (three bio/synthesis paragraphs), CTA; 44rem reading column; "Call for an Estimate" CTA; full SEO head per `06-seo-social.md`, no JSON-LD); `css/style.css` Section 15 (About) added; Jeremiah bio paragraph revised to plainer voice post-approval (see DECISIONS.md). Approved by owner.
 
 ## In progress
-- None — awaiting Phase 7 kickoff
+- Phase 7: Contact Page — `contact.html` built (h1 "Contact", 3-section/2-divider structure: contact-cta (h1 + CTA button, centered), contact-details (44rem left-flush reading column: tap-to-call phone at larger Inter display size, email placeholder, service area line), contact-close (CTA button); full SEO head per `06-seo-social.md`, no JSON-LD); `css/style.css` Section 16 (Contact) added. Awaiting owner approval in browser preview.
 
 ## Blockers
 - Waiting on owner for logo (see 13-open-items.md)
@@ -20,4 +20,4 @@
 - Waiting on owner for domain purchase (pending funds)
 
 ## Next
-- Begin Phase 7 — Contact Page (build chat to propose)
+- Owner review/approval of Phase 7 Contact Page in browser preview
