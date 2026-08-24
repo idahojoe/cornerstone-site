@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-08-24
+- Phase 5 complete — projects page approved by owner.
 - Phase 5 in progress — projects page built, awaiting owner approval to close out phase.
 - Phase 5: `projects.html` — full SEO head (title, meta description, canonical placeholder, Open Graph, Twitter card; no JSON-LD), h1 "Recent Work", empty gallery grid ready for `/images/projects/` photos, centered empty-state placeholder message ("New projects coming soon — check back."), instructional HTML comment documenting how to add a photo (including the `onerror` broken-image handler), two signature dividers (intro→gallery, gallery→CTA), "Call for an Estimate" CTA button.
 - Phase 5: `css/style.css` — added Section 14 (Projects): intro centering, responsive gallery grid (1/2/3 columns at 640px/1024px breakpoints), gallery item box (aspect-ratio, object-fit, neutral background/border for missing photos), empty-state message styling, centered CTA.
