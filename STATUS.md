@@ -1,6 +1,6 @@
 # Status
 
-**Current phase:** Phase 4 — Services Page ✅ (complete, approved). Next: Phase 5 — Projects Page
+**Current phase:** Phase 5 — Projects Page (in progress, awaiting owner approval)
 **Last updated:** 2026-08-24
 
 ## Done
@@ -10,7 +10,7 @@
 - Phase 4: Services Page — `services.html` built (h1 "What We Build", four services with locked copy, two signature dividers, "Call for an Estimate" CTA, full SEO head per `06-seo-social.md`); `css/style.css` Section 13 (Services) added, approved by owner
 
 ## In progress
-- None — awaiting Phase 5 kickoff
+- Phase 5: Projects Page — `projects.html` built (h1 "Recent Work", empty gallery grid ready for `/images/projects/` photos, empty-state placeholder message, instructional HTML comment for adding photos, two signature dividers, "Call for an Estimate" CTA, full SEO head per `06-seo-social.md`, no JSON-LD); `css/style.css` Section 14 (Projects) added. Built to owner-approved proposal. **Awaiting owner's final visual approval before marking complete.**
 
 ## Blockers
 - Waiting on owner for logo (see 13-open-items.md)
@@ -18,4 +18,4 @@
 - Waiting on owner for domain purchase (pending funds)
 
 ## Next
-- Begin Phase 5 — Projects Page (build chat to propose)
+- Owner reviews Phase 5 in browser; once approved, move to Phase 6
