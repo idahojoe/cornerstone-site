@@ -488,3 +488,44 @@ a:hover {
   text-align: center;
   color: var(--color-secondary);
 }
+
+/* ===== 13. Services ===== */
+.services-intro {
+  text-align: center;
+}
+
+.services-intro .container {
+  max-width: 40rem;
+}
+
+.services-list .container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .services-list .container {
+    gap: 4rem;
+  }
+}
+
+.service-block {
+  max-width: 40rem;
+}
+
+@media (min-width: 1024px) {
+  .service-block {
+    max-width: 48rem;
+  }
+}
+
+.service-block h2 {
+  margin-bottom: 0.75rem;
+}
+
+.services-cta .container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
