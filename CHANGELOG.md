@@ -1,6 +1,11 @@
 # Changelog
 
 ## 2026-08-24
+- Phase 7 complete — contact page built and approved.
+- Removed "Email coming soon" line from contact page visible content (see DECISIONS.md).
+- Revised contact page phone number font to JetBrains Mono for stronger design voice (see DECISIONS.md).
+
+## 2026-08-24
 - Phase 6 complete — about page built and approved.
 - Revised Jeremiah Jackson bio paragraph for plainer voice (see DECISIONS.md).
 
