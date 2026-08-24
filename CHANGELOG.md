@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-08-24
+- Phase 4 complete — services page approved by owner.
 - Phase 4 in progress — services page built, awaiting owner approval to close out phase.
 - Phase 4: `services.html` — full SEO head (title, meta description, canonical placeholder, Open Graph, Twitter card; no JSON-LD), h1 "What We Build", four services with locked copy (New Construction, Remodels & Additions, Concrete & Foundations, Repairs & Replacements), two signature dividers (intro→list, list→CTA), "Call for an Estimate" CTA button.
 - Phase 4: `css/style.css` — added Section 13 (Services): intro centering, single-column services list with generous gaps, service block max-width, centered CTA.
