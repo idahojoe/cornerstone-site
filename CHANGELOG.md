@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-08-24
+- Phase 2 complete — global styles approved by owner.
 - Phase 2: global styles written — css/style.css (11 sections: tokens, reset, typography, layout primitives, nav, footer, buttons, signature divider, skip-link/utility, print, reduced-motion).
 - Phase 2: hamburger toggle written to js/script.js.
 - Phase 2: all 6 HTML shells updated with full head (fonts, stylesheet), skip-link, shared nav (aria-current per page), empty main, shared footer, deferred script tag.
