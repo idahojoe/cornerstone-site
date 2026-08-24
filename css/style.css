@@ -580,3 +580,22 @@ a:hover {
   justify-content: center;
   text-align: center;
 }
+
+/* ===== 15. About ===== */
+.about-intro .container,
+.about-story .container {
+  max-width: 44rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-intro p {
+  font-size: 1.25rem;
+}
+
+.about-cta .container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

@@ -1,6 +1,6 @@
 # Status
 
-**Current phase:** Phase 5 — Projects Page ✅ (complete, approved). Next: Phase 6 — About Page
+**Current phase:** Phase 6 — About Page — in progress, awaiting owner approval
 **Last updated:** 2026-08-24
 
 ## Done
@@ -11,7 +11,7 @@
 - Phase 5: Projects Page — `projects.html` built (h1 "Recent Work", empty gallery grid ready for `/images/projects/` photos, empty-state placeholder message, instructional HTML comment for adding photos, two signature dividers, "Call for an Estimate" CTA, full SEO head per `06-seo-social.md`, no JSON-LD); `css/style.css` Section 14 (Projects) added, approved by owner
 
 ## In progress
-- None — awaiting Phase 6 kickoff
+- Phase 6: About Page — `about.html` built (h1 "About", 3-section/2-divider structure: intro, story, CTA; four locked paragraphs in a 44rem left-flush reading column with a 1.25rem lede; "Call for an Estimate" CTA; full SEO head per `06-seo-social.md`, no JSON-LD); `css/style.css` Section 15 (About) added. Written to disk, not yet reviewed by owner in browser preview.
 
 ## Blockers
 - Waiting on owner for logo (see 13-open-items.md)
