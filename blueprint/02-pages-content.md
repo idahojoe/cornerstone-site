@@ -20,19 +20,28 @@ All copy below is LOCKED. Build chat uses it verbatim. No rewrites without owner
 
 ## Services (`services.html`)
 
-Four categories. Each gets a heading and short blurb.
+Five categories. Each gets a heading and body copy. Category 5 has a lead sentence followed by a bulleted sub-list — the only category with bullets.
 
 **1. New Construction**
-*Custom homes and new builds from the ground up. Framed, finished, and done right.*
+Homes, garages, carports, gazebos, decks, porches, and outbuildings of all kinds — barns, pole barns, sheds (free-standing, lean-to, well houses, firewood sheds), chicken coops, goat sheds, greenhouses, and pasture enclosures. If you can picture it on the property, we can build it.
 
 **2. Remodels & Additions**
-Kitchens, bathrooms, covered decks, woodsheds, barns, pole buildings, mudrooms, gazebos, interior renovations.
+Kitchens, bathrooms, interior finish work, flooring (tile, laminate, linoleum), drywall, interior and exterior painting and staining, window and door replacement, custom hearths, fireplace and chimney installation, custom benches, log bed frames, and outdoor kitchens or baths. Additions when you need more space.
 
-**3. Concrete & Foundations**
-*From footings to slabs to full foundations, we pour concrete that lasts.*
+**3. Concrete & Masonry**
+Foundations, slabs, patios, walkways, stoops, countertops, pavers, brick work, cultured stone, and real stone.
 
 **4. Repairs & Replacements**
-*Roofing, siding, drywall, windows, doors, water damage — if it's on your house, we can fix or replace it.*
+Roof, siding, drywall, windows, doors, chimney, fencing, gates, and water damage. If it's broken on the house, we can fix it.
+
+**5. Seasonal & Property Care**
+Built for mountain living and second-home owners.
+- Winterization — draining water lines, prepping traps, thermostat setup
+- Snow removal from entryways, roofs, and walkways
+- Chimney cleaning and maintenance
+- Critter-proofing against chipmunks, squirrels, and rodents
+- Landscaping and irrigation
+- Debris and junk removal
 
 **Bottom of page:** "CALL FOR AN ESTIMATE" button.
 

@@ -1,6 +1,6 @@
 # Status
 
-**Current phase:** Services content expansion (owner-directed update, to apply before Phase 8)
+**Current phase:** Services content expansion — in progress, awaiting owner approval
 **Last updated:** 2026-08-24
 
 ## Done
