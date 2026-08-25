@@ -1,6 +1,6 @@
 # Status
 
-**Current phase:** Services content expansion — in progress, awaiting owner approval
+**Current phase:** Phase 8 — 404 Page + Mobile QA
 **Last updated:** 2026-08-24
 
 ## Done
@@ -11,9 +11,10 @@
 - Phase 5: Projects Page — `projects.html` built (h1 "Recent Work", empty gallery grid ready for `/images/projects/` photos, empty-state placeholder message, instructional HTML comment for adding photos, two signature dividers, "Call for an Estimate" CTA, full SEO head per `06-seo-social.md`, no JSON-LD); `css/style.css` Section 14 (Projects) added, approved by owner
 - Phase 6: About Page ✅ — `about.html` built (h1 "About", 3-section/2-divider structure: intro (h1 + mission paragraph), story (three bio/synthesis paragraphs), CTA; 44rem reading column; "Call for an Estimate" CTA; full SEO head per `06-seo-social.md`, no JSON-LD); `css/style.css` Section 15 (About) added; Jeremiah bio paragraph revised to plainer voice post-approval (see DECISIONS.md). Approved by owner.
 - Phase 7: Contact Page ✅ — `contact.html` built (h1 "Contact", 3-section/2-divider structure: CTA (h1 + button), details (phone in JetBrains Mono, service area), close CTA); Section 16 CSS added; email placeholder removed from visible content per owner (footer email retained); phone font revised to JetBrains Mono post-approval (see DECISIONS.md). Approved by owner.
+- Services content expansion ✅ — services.html expanded from 4 to 5 categories per owner-directed update; added Seasonal & Property Care with lead sentence and bulleted sub-list; renamed Category 3 to "Concrete & Masonry"; expanded scope on all categories; updated meta description and og:description; Section 13 CSS extended with .service-block__list rules (square rust markers); blueprint/02-pages-content.md updated to match. Approved by owner.
 
 ## In progress
-- None — awaiting owner-directed Services page content update before Phase 8 kickoff
+- None — awaiting Phase 8 kickoff
 
 ## Blockers
 - Waiting on owner for logo (see 13-open-items.md)
@@ -21,5 +22,4 @@
 - Waiting on owner for domain purchase (pending funds)
 
 ## Next
-- Apply owner-directed Services page content expansion
-- Begin Phase 8
+- Begin Phase 8 — 404 Page + Mobile QA (build chat to propose)

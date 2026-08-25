@@ -1,6 +1,9 @@
 # Changelog
 
 ## 2026-08-24
+- Services content expansion complete — 5 categories with expanded scope, new Seasonal & Property Care category with bulleted sub-list, updated head metadata (see DECISIONS.md).
+
+## 2026-08-24
 - Phase 7 complete — contact page built and approved.
 - Removed "Email coming soon" line from contact page visible content (see DECISIONS.md).
 - Revised contact page phone number font to JetBrains Mono for stronger design voice (see DECISIONS.md).
