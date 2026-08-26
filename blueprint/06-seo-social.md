@@ -22,7 +22,7 @@ Each page's `<title>` tag:
 One sentence per page. Google shows the first ~155 chars.
 
 - **Home:** *Jackson & Grear Cornerstone Construction — new builds, remodels, concrete, and repairs in Boise County, Idaho. Serving Lowman, Garden Valley, and Stanley.*
-- **Services:** *Services from Jackson & Grear Cornerstone Construction — new construction, remodels and additions, concrete and foundations, roofing, siding, and repairs.*
+- **Services:** *Services from Jackson & Grear Cornerstone Construction — new construction, remodels and additions, concrete and masonry, repairs and replacements, and seasonal property care for mountain homes.*
 - **Projects:** *Recent projects from Jackson & Grear Cornerstone Construction, a small construction outfit in Boise County, Idaho.*
 - **About:** *Meet Jeremiah Jackson and Joseph Grear — the partners behind Jackson & Grear Cornerstone Construction in Boise County, Idaho.*
 - **Contact:** *Call Jackson & Grear Cornerstone Construction at 208-259-3387 for an estimate. Serving Lowman, Garden Valley, Stanley, and beyond.*
