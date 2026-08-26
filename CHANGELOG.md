@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-08-25
+- Phase 8a complete — custom 404 page built and approved.
+- New CSS Section 17 (`.not-found`) appended to `style.css`.
+- Blueprint housekeeping: `06-seo-social.md` Services meta description synced to 5-category scope.
+
 ## 2026-08-24
 - Services content expansion complete — 5 categories with expanded scope, new Seasonal & Property Care category with bulleted sub-list, updated head metadata (see DECISIONS.md).
 
