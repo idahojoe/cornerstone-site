@@ -668,3 +668,18 @@ a:hover {
   justify-content: center;
   text-align: center;
 }
+
+/* -----------------------------------------------------------------
+   17. 404 (Not Found)
+----------------------------------------------------------------- */
+.not-found {
+  text-align: center;
+}
+
+.not-found .container {
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
