@@ -1,7 +1,7 @@
 # Status
 
-**Current phase:** Phase 8b — Mobile QA
-**Last updated:** 2026-08-25
+**Current phase:** Phase 8b Part 2 — Mobile QA (owner browser checklist)
+**Last updated:** 2026-08-26
 
 ## Done
 - Phase 1: Scaffold — all files created, approved by owner
@@ -13,9 +13,11 @@
 - Phase 7: Contact Page ✅ — `contact.html` built (h1 "Contact", 3-section/2-divider structure: CTA (h1 + button), details (phone in JetBrains Mono, service area), close CTA); Section 16 CSS added; email placeholder removed from visible content per owner (footer email retained); phone font revised to JetBrains Mono post-approval (see DECISIONS.md). Approved by owner.
 - Services content expansion ✅ — services.html expanded from 4 to 5 categories per owner-directed update; added Seasonal & Property Care with lead sentence and bulleted sub-list; renamed Category 3 to "Concrete & Masonry"; expanded scope on all categories; updated meta description and og:description; Section 13 CSS extended with .service-block__list rules (square rust markers); blueprint/02-pages-content.md updated to match. Approved by owner.
 - Phase 8a: 404 page + blueprint meta sync ✅ (2026-08-25) — `404.html` built (h1 "Page not found", single content block bracketed by two signature dividers, plain-voice paragraph, "Back to homepage" text link, "Call for an Estimate" CTA button, full SEO head with `robots: noindex` per `06-seo-social.md`, no JSON-LD); `css/style.css` Section 17 (404) added. Blueprint housekeeping: `blueprint/06-seo-social.md` Services meta description synced to the live 5-category `services.html` scope, clearing the Phase 7 TO DO (see DECISIONS.md). Approved by owner.
+- Phase 8b Part 1: headless source audit ✅ (2026-08-26) — read-only audit across all six pages (index, services, projects, about, contact, 404) plus `css/style.css` and `js/script.js`; findings summarized: footer link hover contrast failure (rust-on-ink 2.02:1, below WCAG AA), nav link tap targets undersized (~19.8px computed height, below the 44px guideline); non-issues dismissed: JSON-LD `@type: GeneralContractor` confirmed as a correct schema.org LocalBusiness subtype (not a defect), signature-divider hash mismatch against the audit spec's reference value attributed to an extraction-method artifact (all 11 divider instances across all six pages are internally byte-identical to each other).
+- Phase 8c: accessibility fixes ✅ (2026-08-26) — `css/style.css` only, two fixes: footer link hover contrast — dropped the cream-to-rust color flip on `:hover`/`:focus-visible` (2.02:1, WCAG AA fail), kept cream text (`--color-base`) at rest and hover (13.33:1 on `--color-ink`), thickened the rust underline from ~1px to 2px with increased `text-underline-offset` on hover/focus for tactile feedback; nav link tap targets — enlarged `.site-nav a` to a 44px minimum hit area via `display: inline-flex`, `align-items: center`, `min-height: 44px` at both mobile and desktop breakpoints, active-page indicator rebuilt from `border-bottom` (box-relative) to `text-decoration` (text-relative) so the 2px rust underline stays glued to the text baseline instead of detaching at the bottom of the taller tap-target box. Approved by owner.
 
 ## In progress
-- None — Phase 8b (Mobile QA) not yet started
+- None — Phase 8b Part 2 (Mobile QA browser checklist) not yet started; checklist to be produced by build chat
 
 ## Blockers
 - Waiting on owner for logo (see 13-open-items.md)
@@ -23,4 +25,4 @@
 - Waiting on owner for domain purchase (pending funds)
 
 ## Next
-- Begin Phase 8b — Mobile QA: audit every page (Home, Services, Projects, About, Contact, 404) at 375px / 768px / 1280px; verify hamburger menu open/close and focus behavior; verify tap-to-call links; full keyboard-nav pass (tab order, visible focus, Enter/Space activation); full pass through `07-accessibility.md` checklist (build chat to propose)
+- Begin Phase 8b Part 2 — Mobile QA: browser checklist walkthrough across every page (Home, Services, Projects, About, Contact, 404) at 375px / 768px / 1280px in DevTools mobile emulation, plus a real-device pass on owner's phone; verify hamburger menu open/close and focus behavior, tap-to-call links, full keyboard-nav pass (tab order, visible focus, Enter/Space activation), full pass through `07-accessibility.md` checklist (build chat to produce checklist)

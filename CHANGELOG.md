@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-08-26
+- Phase 8b Part 1 complete — headless source audit across all six pages (index, services, projects, about, contact, 404) plus `css/style.css` and `js/script.js`; two findings identified (footer link hover contrast, nav link tap targets undersized); non-issues dismissed (JSON-LD subtype, divider hash reference artifact) — see DECISIONS.md.
+- Phase 8c complete — CSS fixes for footer link hover contrast and nav link tap targets, approved by owner; `css/style.css` only, no HTML changes — see DECISIONS.md.
+
 ## 2026-08-25
 - Phase 8a complete — custom 404 page built and approved.
 - New CSS Section 17 (`.not-found`) appended to `style.css`.
