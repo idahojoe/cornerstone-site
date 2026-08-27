@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-08-27
+- QA fix: centered phone number and service-area line on contact.html (added align-items: center and text-align: center to .contact-details .container in Section 16 of css/style.css). Caught during Phase 8b Part 2 mobile QA. Approved.
+
 ## 2026-08-26
 - Phase 8b Part 1 complete — headless source audit across all six pages (index, services, projects, about, contact, 404) plus `css/style.css` and `js/script.js`; two findings identified (footer link hover contrast, nav link tap targets undersized); non-issues dismissed (JSON-LD subtype, divider hash reference artifact) — see DECISIONS.md.
 - Phase 8c complete — CSS fixes for footer link hover contrast and nav link tap targets, approved by owner; `css/style.css` only, no HTML changes — see DECISIONS.md.
