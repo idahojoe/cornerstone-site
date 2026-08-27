@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-08-27
+- Phase 8b Part 2 (mobile QA browser walkthrough) complete — Sections 1–5 (DevTools emulation at 375/768/1280 + keyboard nav) all passed. Section 6 (real-device pass on Android and iPhone) deferred until after Phase 9 deploy.
 - QA fix: centered phone number and service-area line on contact.html (added align-items: center and text-align: center to .contact-details .container in Section 16 of css/style.css). Caught during Phase 8b Part 2 mobile QA. Approved.
 
 ## 2026-08-26

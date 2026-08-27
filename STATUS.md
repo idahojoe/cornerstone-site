@@ -1,7 +1,7 @@
 # Status
 
-**Current phase:** Phase 8b Part 2 — Mobile QA (owner browser checklist)
-**Last updated:** 2026-08-26
+**Current phase:** Phase 9 — Deploy
+**Last updated:** 2026-08-27
 
 ## Done
 - Phase 1: Scaffold — all files created, approved by owner
@@ -17,14 +17,16 @@
 - Phase 8c: accessibility fixes ✅ (2026-08-26) — `css/style.css` only, two fixes: footer link hover contrast — dropped the cream-to-rust color flip on `:hover`/`:focus-visible` (2.02:1, WCAG AA fail), kept cream text (`--color-base`) at rest and hover (13.33:1 on `--color-ink`), thickened the rust underline from ~1px to 2px with increased `text-underline-offset` on hover/focus for tactile feedback; nav link tap targets — enlarged `.site-nav a` to a 44px minimum hit area via `display: inline-flex`, `align-items: center`, `min-height: 44px` at both mobile and desktop breakpoints, active-page indicator rebuilt from `border-bottom` (box-relative) to `text-decoration` (text-relative) so the 2px rust underline stays glued to the text baseline instead of detaching at the bottom of the taller tap-target box. Approved by owner.
 - Font swap: Fraunces → Libre Caslon Text ✅ (2026-08-26) — locked display font swapped site-wide; reason: the Fraunces capital-J descender read as distracting at hero size; new font is a classical serif with warmth and cleaner letterforms; all six HTML pages updated to load `Libre Caslon Text` from Google Fonts alongside Inter and JetBrains Mono; `css/style.css` `--font-display` token updated and six weight rules adjusted from Fraunces's 500/600 to Libre Caslon Text's 400/700; `blueprint/03-design.md` synced to reflect the new locked decision. Approved by owner.
 - QA fix: contact page phone and service-area centering ✅
+- Phase 8b Part 2: Mobile QA browser walkthrough (Sections 1–5) ✅
 
 ## In progress
-- None — Phase 8b Part 2 (Mobile QA browser checklist) not yet started; checklist to be produced by build chat
+- None — Phase 9 (Deploy) not yet started
 
 ## Blockers
 - Waiting on owner for logo (see 13-open-items.md)
 - Waiting on owner for professional email address (pending .com purchase)
 - Waiting on owner for domain purchase (pending funds)
+- Phase 9 deploy requires owner to create private GitHub repo before push.
 
 ## Next
-- Begin Phase 8b Part 2 — Mobile QA: browser checklist walkthrough across every page (Home, Services, Projects, About, Contact, 404) at 375px / 768px / 1280px in DevTools mobile emulation, plus a real-device pass on owner's phone; verify hamburger menu open/close and focus behavior, tap-to-call links, full keyboard-nav pass (tab order, visible focus, Enter/Space activation), full pass through `07-accessibility.md` checklist (build chat to produce checklist)
+- Begin Phase 9 — Deploy. Section 6 (real-device QA pass on Android and iPhone) to run after Phase 9 deploy provides a live URL.
