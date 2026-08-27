@@ -47,14 +47,14 @@ Google Fonts, loaded via `<link>` in `<head>`.
 
 | Role | Family | Notes |
 |---|---|---|
-| Display (headlines) | **Fraunces** | Serif with real character — has weight, variable, feels made rather than default |
+| Display (headlines) | **Libre Caslon Text** | Classical serif with warmth and quiet character — reads as an established, well-set page rather than a template. |
 | Body | **Inter** | Clean, quiet, gets out of the way |
 | Utility (nav, labels, captions) | **JetBrains Mono** or **Space Mono** | Monospace for nav caps and small utility text — the "stamped on equipment" signature |
 
 **Type scale (spacious layout):**
-- H1 (hero): 3.5rem desktop / 2.25rem mobile, Fraunces, weight 600
-- H2 (section): 2.25rem desktop / 1.75rem mobile, Fraunces, weight 500
-- H3: 1.5rem, Fraunces, weight 500
+- H1 (hero): 3.5rem desktop / 2.25rem mobile, Libre Caslon Text, weight 700
+- H2 (section): 2.25rem desktop / 1.75rem mobile, Libre Caslon Text, weight 400
+- H3: 1.5rem, Libre Caslon Text, weight 400
 - Body: 1.125rem, Inter, weight 400, line-height 1.65
 - Nav links: 0.75rem, Space Mono, uppercase, letter-spacing 0.15em
 - Buttons: 1rem, Inter, weight 500, uppercase, letter-spacing 0.05em
@@ -62,7 +62,7 @@ Google Fonts, loaded via `<link>` in `<head>`.
 
 **Rules:**
 - Do not swap font families. If a Google Fonts request fails, use `serif` / `sans-serif` / `monospace` system fallbacks — never substitute a different Google font.
-- Fraunces is used sparingly and with restraint. Never for body text.
+- Libre Caslon Text is used sparingly and with restraint. Never for body text.
 
 ---
 
@@ -79,7 +79,7 @@ Google Fonts, loaded via `<link>` in `<head>`.
 
 ## Navigation Bar (LOCKED)
 
-- **Top-left:** Company name in Fraunces (or logo image when provided).
+- **Top-left:** Company name in Libre Caslon Text (or logo image when provided).
 - **Top-right (desktop):** `HOME` `SERVICES` `PROJECTS` `ABOUT` `CONTACT` — Space Mono, uppercase, wide letter-spacing.
 - **Mobile:** Hamburger menu icon. Opens full-screen overlay with same links stacked.
 - **Sticky:** Stays visible on scroll. Slight background blur or opacity to keep content readable underneath.
@@ -91,7 +91,7 @@ Google Fonts, loaded via `<link>` in `<head>`.
 
 Three columns on desktop, stacked on mobile.
 
-- **Left column:** Company name (Fraunces) + tagline: *Small-town values. Solid construction.*
+- **Left column:** Company name (Libre Caslon Text) + tagline: *Small-town values. Solid construction.*
 - **Middle column:** Phone (tap-to-call), email (once available, tap-to-email), service area line.
 - **Right column:** Quick links (same as nav).
 - **Bottom line, centered, small type:** `© 2026 Jackson & Grear Cornerstone Construction. All rights reserved.`
@@ -123,7 +123,7 @@ Three columns on desktop, stacked on mobile.
 - **Background:** Full-width Idaho landscape photo from Unsplash (see `05-photos.md` for specs).
 - **Overlay:** Semi-transparent `--color-ink` at ~35% opacity, so text is readable over any photo.
 - **Content, centered:**
-  - Company name in Fraunces, weight 600, in `--color-base`.
+  - Company name in Libre Caslon Text, weight 700, in `--color-base`.
   - Tagline below in Inter, weight 400, in `--color-base` at 90% opacity.
   - Phone number as a large tap-to-call link.
   - "Call for an estimate" button.
@@ -141,7 +141,7 @@ Three columns on desktop, stacked on mobile.
 
 ## Logo Handling (LOCKED)
 
-- **Before owner provides logo:** Text logo — "Jackson & Grear" in Fraunces weight 600, "CORNERSTONE CONSTRUCTION" in Space Mono uppercase below at smaller size. This is the interim mark.
+- **Before owner provides logo:** Text logo — "Jackson & Grear" in Libre Caslon Text weight 700, "CORNERSTONE CONSTRUCTION" in Space Mono uppercase below at smaller size. This is the interim mark.
 - **After owner provides logo:** Owner drops `logo.png` into `/images/logo/`. Build chat swaps text mark for image with minimal HTML/CSS change.
 - **Favicon:** Skip until logo exists. Then drop 32x32 `favicon.png` into `/images/logo/`.
 
