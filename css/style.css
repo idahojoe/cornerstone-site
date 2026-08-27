@@ -225,11 +225,16 @@ a:hover {
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--color-base);
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
 }
 
 .site-nav a[aria-current="page"] {
-  border-bottom: 2px solid var(--color-accent);
-  padding-bottom: 0.25rem;
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 
 @media (min-width: 1024px) {
@@ -280,7 +285,8 @@ a:hover {
 
 .site-footer a:hover,
 .site-footer a:focus-visible {
-  color: var(--color-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 
 .site-footer__name {
