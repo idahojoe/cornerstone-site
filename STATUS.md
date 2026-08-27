@@ -18,7 +18,7 @@
 - Font swap: Fraunces → Libre Caslon Text ✅ (2026-08-26) — locked display font swapped site-wide; reason: the Fraunces capital-J descender read as distracting at hero size; new font is a classical serif with warmth and cleaner letterforms; all six HTML pages updated to load `Libre Caslon Text` from Google Fonts alongside Inter and JetBrains Mono; `css/style.css` `--font-display` token updated and six weight rules adjusted from Fraunces's 500/600 to Libre Caslon Text's 400/700; `blueprint/03-design.md` synced to reflect the new locked decision. Approved by owner.
 
 ## In progress
-- None — Phase 8b Part 2 (Mobile QA browser checklist) not yet started; checklist to be produced by build chat
+- QA fix: center phone and service-area line on contact.html (pending owner approval)
 
 ## Blockers
 - Waiting on owner for logo (see 13-open-items.md)
