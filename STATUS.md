@@ -18,9 +18,10 @@
 - Font swap: Fraunces → Libre Caslon Text ✅ (2026-08-26) — locked display font swapped site-wide; reason: the Fraunces capital-J descender read as distracting at hero size; new font is a classical serif with warmth and cleaner letterforms; all six HTML pages updated to load `Libre Caslon Text` from Google Fonts alongside Inter and JetBrains Mono; `css/style.css` `--font-display` token updated and six weight rules adjusted from Fraunces's 500/600 to Libre Caslon Text's 400/700; `blueprint/03-design.md` synced to reflect the new locked decision. Approved by owner.
 - QA fix: contact page phone and service-area centering ✅
 - Phase 8b Part 2: Mobile QA browser walkthrough (Sections 1–5) ✅
+- Content updates ✅ (2026-08-27) — corrected phone number (3387 → 3378, all HTML + blueprint), added interim email jgcclowman@gmail.com to contact page and all 6 footers (will swap to @domain address post .com purchase), reworded Seasonal & Property Care critter bullet on services.html. Approved by owner.
 
 ## In progress
-- Content updates: phone number correction, email added (interim Gmail), critter bullet reworded — pending owner approval
+- None — Phase 9 (Deploy) not yet started
 
 ## Blockers
 - Waiting on owner for logo (see 13-open-items.md)

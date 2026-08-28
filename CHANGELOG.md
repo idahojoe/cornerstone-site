@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-08-27
+- Content updates: corrected phone number to 208-259-3378 site-wide (previous 3387 was a transposition — real number confirmed by owner); added tap-to-email link jgcclowman@gmail.com to contact page (below phone) and all 6 footers (interim Gmail — will swap to domain email post .com purchase); reworded Seasonal & Property Care critter bullet on services.html to "Sealing entry points to reduce the risk of chipmunks, squirrels, and rodents getting into your home or outbuildings."; blueprint/02-pages-content.md synced.
 - Phase 8b Part 2 (mobile QA browser walkthrough) complete — Sections 1–5 (DevTools emulation at 375/768/1280 + keyboard nav) all passed. Section 6 (real-device pass on Android and iPhone) deferred until after Phase 9 deploy.
 - QA fix: centered phone number and service-area line on contact.html (added align-items: center and text-align: center to .contact-details .container in Section 16 of css/style.css). Caught during Phase 8b Part 2 mobile QA. Approved.
 
