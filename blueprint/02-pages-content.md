@@ -10,7 +10,7 @@ All copy below is LOCKED. Build chat uses it verbatim. No rewrites without owner
 - Idaho landscape background image (see `05-photos.md` and `03-design.md`)
 - Company name overlaid: **Jackson & Grear Cornerstone Construction**
 - Tagline: *Small-town values. Solid construction.*
-- Phone (tap-to-call): **208-259-3387**
+- Phone (tap-to-call): **208-259-3378**
 - Button: **CALL FOR AN ESTIMATE** (tap-to-call)
 
 **Below hero:**
@@ -39,7 +39,7 @@ Built for mountain living and second-home owners.
 - Winterization — draining water lines, prepping traps, thermostat setup
 - Snow removal from entryways, roofs, and walkways
 - Chimney cleaning and maintenance
-- Critter-proofing against chipmunks, squirrels, and rodents
+- Sealing entry points to reduce the risk of chipmunks, squirrels, and rodents getting into your home or outbuildings.
 - Landscaping and irrigation
 - Debris and junk removal
 
@@ -75,8 +75,8 @@ Locked copy — do not reword.
 ## Contact (`contact.html`)
 
 - **Prominent, near top:** "CALL FOR AN ESTIMATE" button.
-- **Phone (tap-to-call):** 208-259-3387
-- **Email:** Placeholder — professional email pending `.com` purchase. When ready, tap-to-email.
+- **Phone (tap-to-call):** 208-259-3378
+- **Email:** jgcclowman@gmail.com (interim Gmail, live at launch, tap-to-email). Will be swapped for a professional `@domain` email once the `.com` is purchased.
 - **Service area:** Lowman, Garden Valley, Stanley — and beyond when the job calls for it.
 
 ---
@@ -84,7 +84,7 @@ Locked copy — do not reword.
 ## Universal (every page)
 
 - **Nav bar** at top (see `03-design.md`).
-- **Footer** at bottom (see `03-design.md`).
+- **Footer** at bottom (see `03-design.md`), including the interim Gmail tap-to-email link — will be swapped for a professional `@domain` email once the `.com` is purchased.
 - **"Call for an estimate"** placement per page as noted above.
 
 ---

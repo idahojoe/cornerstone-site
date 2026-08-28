@@ -20,7 +20,7 @@
 - Phase 8b Part 2: Mobile QA browser walkthrough (Sections 1–5) ✅
 
 ## In progress
-- None — Phase 9 (Deploy) not yet started
+- Content updates: phone number correction, email added (interim Gmail), critter bullet reworded — pending owner approval
 
 ## Blockers
 - Waiting on owner for logo (see 13-open-items.md)

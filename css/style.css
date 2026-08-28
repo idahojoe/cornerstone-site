@@ -671,6 +671,18 @@ a:hover {
   color: var(--color-accent);
 }
 
+.contact-details__email {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-underline-offset: 2px;
+}
+
+.contact-details__email:hover,
+.contact-details__email:focus-visible {
+  color: var(--color-accent);
+}
+
 .contact-close .container {
   display: flex;
   justify-content: center;

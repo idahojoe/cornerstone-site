@@ -17,7 +17,7 @@ Not optional. Legally expected. Also makes the site work better for everyone.
 
 ## Buttons & Links (LOCKED)
 
-- Tap-to-call phone: `<a href="tel:+12082593387" aria-label="Call Jackson and Grear at 208-259-3387">208-259-3387</a>`
+- Tap-to-call phone: `<a href="tel:+12082593378" aria-label="Call Jackson and Grear at 208-259-3378">208-259-3378</a>`
 - Tap-to-email (when live): `<a href="mailto:[email]" aria-label="Email Jackson and Grear">[email]</a>`
 - Icon-only buttons (like hamburger menu): must have `aria-label`.
 - Every button has visible text OR an `aria-label`.

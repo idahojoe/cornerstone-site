@@ -25,7 +25,7 @@ One sentence per page. Google shows the first ~155 chars.
 - **Services:** *Services from Jackson & Grear Cornerstone Construction — new construction, remodels and additions, concrete and masonry, repairs and replacements, and seasonal property care for mountain homes.*
 - **Projects:** *Recent projects from Jackson & Grear Cornerstone Construction, a small construction outfit in Boise County, Idaho.*
 - **About:** *Meet Jeremiah Jackson and Joseph Grear — the partners behind Jackson & Grear Cornerstone Construction in Boise County, Idaho.*
-- **Contact:** *Call Jackson & Grear Cornerstone Construction at 208-259-3387 for an estimate. Serving Lowman, Garden Valley, Stanley, and beyond.*
+- **Contact:** *Call Jackson & Grear Cornerstone Construction at 208-259-3378 for an estimate. Serving Lowman, Garden Valley, Stanley, and beyond.*
 
 ---
 
@@ -90,7 +90,7 @@ Add `LocalBusiness` schema.org JSON-LD to home page `<head>`. Helps Google show 
   "@context": "https://schema.org",
   "@type": "GeneralContractor",
   "name": "Jackson & Grear Cornerstone Construction",
-  "telephone": "+1-208-259-3387",
+  "telephone": "+1-208-259-3378",
   "areaServed": ["Lowman, Idaho", "Garden Valley, Idaho", "Stanley, Idaho", "Boise County, Idaho"],
   "address": {
     "@type": "PostalAddress",
